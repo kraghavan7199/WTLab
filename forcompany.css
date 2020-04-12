@@ -1,0 +1,54 @@
+
+body{
+    background-image: url(lol.jpg); 
+    }
+.jumbotron {
+	background-color: cornflowerblue; 
+	color: #ffffff;
+}
+.navbar {
+	margin-bottom: 0;
+	background-color: darkblue;
+	border: 0;
+	font-size: 18px !important;
+	letter-spacing: 2px;
+	opacity: 0.9;
+}
+/* Add light blue color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+	color: lightblue !important;
+}
+/* On hover, the links will turn white */
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: cyan !important;
+	background-color: darkblue !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+/* Add a dark background color to the footer */
+footer {
+    background-color:cornflowerblueblue;
+    color: #fff;
+    padding: 32px;
+	font-size: 18px;
+	
+}
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #00ccff;
+	opacity: 0.9;
+}
+
+#smile{
+	width: 200px;
+	height: 200px;
+}
+
+#total{
+	background-color: yellow;
+}
